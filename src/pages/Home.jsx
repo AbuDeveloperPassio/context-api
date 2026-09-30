@@ -1,6 +1,7 @@
 import { useState } from "react";
 import StudentList from "../components/StudentList";
 import { useStudents } from "../context/StudentContext";
+import React from 'react';
 
 export default function Home() {
   const { students } = useStudents();

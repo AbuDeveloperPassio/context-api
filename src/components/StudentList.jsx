@@ -1,4 +1,5 @@
 import StudentCard from "./StudentCard";
+import React from 'react';
 
 export default function StudentList({ students }) {
   if (!students.length) {

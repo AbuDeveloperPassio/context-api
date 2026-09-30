@@ -1,6 +1,7 @@
 import StudentList from "../components/StudentList";
 import { useStudents } from "../context/StudentContext";
 import { useFavourites } from "../context/FavouriteContext";
+import React from 'react';
 
 export default function Favourites() {
   const { students } = useStudents();

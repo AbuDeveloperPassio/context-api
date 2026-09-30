@@ -1,5 +1,6 @@
 import { useFavourites } from "../context/FavouriteContext";
 import { useStudents } from "../context/StudentContext";
+import React from 'react';
 
 export default function StudentCard({ student }) {
   const { removeStudent } = useStudents();
